@@ -1,0 +1,15 @@
+{
+  "name":        "wearerequired/jquery-light",
+  "description": "Removes jQuery Migrate from the list of jQuery dependencies and allows jQuery to enqueue before </body> instead of in the <head>.",
+  "type":        "wordpress-muplugin",
+  "license":     "GPL-2.0+",
+  "authors":     [
+    {
+      "name":  "required",
+      "email": "info@required.ch"
+    }
+  ],
+  "require": {
+    "php": ">=5.3"
+  }
+}
