@@ -4,7 +4,7 @@ Removes jQuery Migrate from the list of jQuery dependencies and allows jQuery to
 
 ## Installation
 
-Example of a `composer.json` for a site:
+The package type is `wordpress-muplugin`. Example of a `composer.json`:
 
 ```json
 {
@@ -18,17 +18,11 @@ Example of a `composer.json` for a site:
     }
   ],
   "require": {
-    "php": ">=5.6",
+    "php": ">=5.3",
     "koodimonni/composer-dropin-installer": "dev-master",
-    "johnpbloch/wordpress": "~4.8",
-    "wearerequired/jquery-light": "dev-master"
+    "johnpbloch/wordpress": "~4.9",
+    "wearerequired/jquery-light": "^1.0"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git@github.com:wearerequired/jquery-light.git"
-    }
-  ],
   "extra": {
     "wordpress-install-dir": "wordpress/wp",
     "installer-paths": {
